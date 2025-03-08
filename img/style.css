@@ -1,0 +1,26 @@
+
+.global-section{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-single-item{
+    padding:50px;
+    width:200px;
+    height: 50px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    background-color:white;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.grid-single-item i{
+    font-size:25px;
+    font-size: bold;
+}
+.grid-single-item p{
+    font-size:18px;
+    font-size: bold;
+}
